@@ -15,8 +15,15 @@ ROSを使い、プログラムを実行する。
          
       $ cd catkin_ws/src
    
-   ・
+   ・catkin_ws/src内でcatkin_init_workspaceを行う
+      
+      $ catkin_init_workspace
    
-   ・
+   ・catkin_wsのディレクトリでcatkin_makeからのsource ~/.bashをする
+      
+      $ cd catkin_ws
+      $ catkin_make
+      $ source ~/.bash
+      
    
    ・
