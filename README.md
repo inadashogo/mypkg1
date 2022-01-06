@@ -10,3 +10,13 @@ ROSを使い、プログラムを実行する。
    ・ROS1
 # 使用方法
 ・Ubuntu20.04にros noeticをインストールする（18.04の場合 ros melodic , 16.04の場合 ros kinetic）
+    
+   ・ホームディレクトリにcatkin_ws/srcを作成
+         
+      $ cd catkin_ws/src
+   
+   ・
+   
+   ・
+   
+   ・
