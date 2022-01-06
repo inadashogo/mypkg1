@@ -41,3 +41,11 @@ ROSを使い、プログラムを実行する。
     
     　$ chmod +x count.py
       $ chmod +x twice.py
+      
+    ・Ubuntuを４つ出し、一つ目はroscore、二つ目は、rosrun mypkg count.py、三つめは、rosrun mypkg twice.py、４つ目はrostopic echo /twiceを実行する
+    
+      1 $ roscore
+      2 $ rosrun mypkg count.py
+      3 $ rosrun mypkg twice.py
+      4 $ rostopic echo /twice
+     すると、２ずつふえる数字が表示される。
