@@ -25,5 +25,19 @@ ROSを使い、プログラムを実行する。
       $ catkin_make
       $ source ~/.bash
       
-   
-   ・
+   ・catkin_ws/src内でcatkin_create_pkg mypkg rospyをする
+      
+      $ cd catkin_ws/src
+      $ catkin_create_pkg mypkg rospy
+      
+   ・パッケージ内にscriptsというディレクトリを作成
+   　 
+     
+      $ cd mypkg/
+      $ mkdir scripts
+      $ cd scripts/
+      
+    ・catkin_ws/src/mypkg/scripts内でchmod +x count.pyとchmod +x twice.pyをする
+    
+    　$ chmod +x count.py
+      $ chmod +x twice.py
