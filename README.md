@@ -49,3 +49,5 @@ ROSを使い、プログラムを実行する。
       3 $ rosrun mypkg twice.py
       4 $ rostopic echo /twice
      すると、２ずつふえる数字が表示される。
+     
+# ライセンス
