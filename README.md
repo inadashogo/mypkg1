@@ -30,24 +30,28 @@ ROSを使い、プログラムを実行する。
       $ cd catkin_ws/src
       $ catkin_create_pkg mypkg rospy
       
-   ・パッケージ内にscriptsというディレクトリを作成
-   　 
-     
+   ・パッケージ内にscriptsというディレクトリを作る
+      
       $ cd mypkg/
       $ mkdir scripts
       $ cd scripts/
       
-    ・catkin_ws/src/mypkg/scripts内でchmod +x count.pyとchmod +x twice.pyをする
+   ・catkin_ws/src/mypkg/scripts内でchmod +x count.pyとchmod +x twice.pyをする
     
     　$ chmod +x count.py
       $ chmod +x twice.py
       
-    ・Ubuntuを４つ出し、一つ目はroscore、二つ目は、rosrun mypkg count.py、三つめは、rosrun mypkg twice.py、４つ目はrostopic echo /twiceを実行する
+   ・Ubuntuを４つ出し、一つ目はroscore、二つ目は、rosrun mypkg count.py、三つめは、rosrun mypkg twice.py、４つ目はrostopic echo /twiceを実行する
     
       1 $ roscore
       2 $ rosrun mypkg count.py
       3 $ rosrun mypkg twice.py
       4 $ rostopic echo /twice
-     すると、２ずつふえる数字が表示される。
+    
+    すると、２ずつふえる数字が表示される。
+     
+   ・閉じる際
+   　 
+     Ctrl-cを押す
      
 # ライセンス
