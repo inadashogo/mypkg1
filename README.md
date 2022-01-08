@@ -40,14 +40,14 @@ ROSを使い、プログラムを実行する。
       $ mkdir scripts
       $ cd scripts/
    
-   ・ノードの作成をする(人によって違う)
+   ・ノードの作成をしプログラムをかく(人によって違う)
    
    私の場合
       
       $ vi count.py
       $ vi twice.py
    
-   ・catkin_ws/src/mypkg/scripts内でchmod +x count.pyとchmod +x twice.pyをする
+   ・catkin_ws/src/mypkg/scripts内でchmod +x count.pyとchmod +x twice.pyで実行
     
     　$ chmod +x count.py
       $ chmod +x twice.py
